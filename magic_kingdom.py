@@ -290,59 +290,59 @@ astro_orbiter = dict({
 })
 
 buzz_lightyear_space_ranger_spin = dict({
-    "id": data["lands"][5]["rides"][0]["id"],
-    "name": data["lands"][5]["rides"][0]["name"],
-    "is_open": data["lands"][5]["rides"][0]["is_open"],
-    "wait_time": data["lands"][5]["rides"][0]["wait_time"],
-    "last_updated": data["lands"][5]["rides"][0]["last_updated"]
+    "id": data["lands"][5]["rides"][1]["id"],
+    "name": data["lands"][5]["rides"][1]["name"],
+    "is_open": data["lands"][5]["rides"][1]["is_open"],
+    "wait_time": data["lands"][5]["rides"][1]["wait_time"],
+    "last_updated": data["lands"][5]["rides"][1]["last_updated"]
 })
 
 monster_inc_laugh_floor = dict({
-    "id": data["lands"][5]["rides"][0]["id"],
-    "name": data["lands"][5]["rides"][0]["name"],
-    "is_open": data["lands"][5]["rides"][0]["is_open"],
-    "wait_time": data["lands"][5]["rides"][0]["wait_time"],
-    "last_updated": data["lands"][5]["rides"][0]["last_updated"]
+    "id": data["lands"][5]["rides"][2]["id"],
+    "name": data["lands"][5]["rides"][2]["name"],
+    "is_open": data["lands"][5]["rides"][2]["is_open"],
+    "wait_time": data["lands"][5]["rides"][2]["wait_time"],
+    "last_updated": data["lands"][5]["rides"][2]["last_updated"]
 })
 
 space_mountain = dict({
-    "id": data["lands"][5]["rides"][0]["id"],
-    "name": data["lands"][5]["rides"][0]["name"],
-    "is_open": data["lands"][5]["rides"][0]["is_open"],
-    "wait_time": data["lands"][5]["rides"][0]["wait_time"],
-    "last_updated": data["lands"][5]["rides"][0]["last_updated"]
+    "id": data["lands"][5]["rides"][3]["id"],
+    "name": data["lands"][5]["rides"][3]["name"],
+    "is_open": data["lands"][5]["rides"][3]["is_open"],
+    "wait_time": data["lands"][5]["rides"][3]["wait_time"],
+    "last_updated": data["lands"][5]["rides"][3]["last_updated"]
 })
 
 tomorrowland_speedway = dict({
-    "id": data["lands"][5]["rides"][0]["id"],
-    "name": data["lands"][5]["rides"][0]["name"],
-    "is_open": data["lands"][5]["rides"][0]["is_open"],
-    "wait_time": data["lands"][5]["rides"][0]["wait_time"],
-    "last_updated": data["lands"][5]["rides"][0]["last_updated"]
+    "id": data["lands"][5]["rides"][4]["id"],
+    "name": data["lands"][5]["rides"][4]["name"],
+    "is_open": data["lands"][5]["rides"][4]["is_open"],
+    "wait_time": data["lands"][5]["rides"][4]["wait_time"],
+    "last_updated": data["lands"][5]["rides"][4]["last_updated"]
 })
 
 tomorrowland_transit_authority_peoplemover = dict({
-    "id": data["lands"][5]["rides"][0]["id"],
-    "name": data["lands"][5]["rides"][0]["name"],
-    "is_open": data["lands"][5]["rides"][0]["is_open"],
-    "wait_time": data["lands"][5]["rides"][0]["wait_time"],
-    "last_updated": data["lands"][5]["rides"][0]["last_updated"]
+    "id": data["lands"][5]["rides"][5]["id"],
+    "name": data["lands"][5]["rides"][5]["name"],
+    "is_open": data["lands"][5]["rides"][5]["is_open"],
+    "wait_time": data["lands"][5]["rides"][5]["wait_time"],
+    "last_updated": data["lands"][5]["rides"][5]["last_updated"]
 })
 
 tron_lightcycle_run = dict({
-    "id": data["lands"][5]["rides"][0]["id"],
-    "name": data["lands"][5]["rides"][0]["name"],
-    "is_open": data["lands"][5]["rides"][0]["is_open"],
-    "wait_time": data["lands"][5]["rides"][0]["wait_time"],
-    "last_updated": data["lands"][5]["rides"][0]["last_updated"]
+    "id": data["lands"][5]["rides"][6]["id"],
+    "name": data["lands"][5]["rides"][6]["name"],
+    "is_open": data["lands"][5]["rides"][6]["is_open"],
+    "wait_time": data["lands"][5]["rides"][6]["wait_time"],
+    "last_updated": data["lands"][5]["rides"][6]["last_updated"]
 })
 
 walt_disneys_carousel_of_progress = dict({
-    "id": data["lands"][5]["rides"][0]["id"],
-    "name": data["lands"][5]["rides"][0]["name"],
-    "is_open": data["lands"][5]["rides"][0]["is_open"],
-    "wait_time": data["lands"][5]["rides"][0]["wait_time"],
-    "last_updated": data["lands"][5]["rides"][0]["last_updated"]
+    "id": data["lands"][5]["rides"][7]["id"],
+    "name": data["lands"][5]["rides"][7]["name"],
+    "is_open": data["lands"][5]["rides"][7]["is_open"],
+    "wait_time": data["lands"][5]["rides"][7]["wait_time"],
+    "last_updated": data["lands"][5]["rides"][7]["last_updated"]
 })
 
 ratio_of_name_column = 6
@@ -522,4 +522,3 @@ def all_magic_kingdom_tables():
     main_street_usa()
     tomorrowland()
 
-    

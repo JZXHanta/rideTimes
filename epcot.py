@@ -60,11 +60,11 @@ test_track = dict({
 })
 
 test_track_single_rider = dict({
-    "id": data["lands"][1]["rides"][2]["id"],
-    "name": data["lands"][1]["rides"][2]["name"],
-    "is_open": data["lands"][1]["rides"][2]["is_open"],
-    "wait_time": data["lands"][1]["rides"][2]["wait_time"],
-    "last_updated": data["lands"][1]["rides"][2]["last_updated"]
+    "id": data["lands"][1]["rides"][3]["id"],
+    "name": data["lands"][1]["rides"][3]["name"],
+    "is_open": data["lands"][1]["rides"][3]["is_open"],
+    "wait_time": data["lands"][1]["rides"][3]["wait_time"],
+    "last_updated": data["lands"][1]["rides"][3]["last_updated"]
 })
 
 awesome_planet = dict({
