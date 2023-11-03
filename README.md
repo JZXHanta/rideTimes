@@ -1,6 +1,6 @@
 # rideTimes
 
-## Simple Interface with queue-times.com api fo view status of Disney World ride times and status that no one needs
+## Simple Interface with queue-times.com api for viewing Disney World ride times and status in a format that no one will use.
 My wife was not impressed
 
 ### To install:
