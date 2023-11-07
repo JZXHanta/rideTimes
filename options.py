@@ -6,14 +6,15 @@ from rich import print as rprint
 from rich.prompt import Prompt
 
 
-def sorry():
+def sorry() -> None:
     rprint("Sorry this is still a work in progress...")
 
 
-def choose_a_park():
-    choice = Prompt.ask(
+def choose_a_park() -> str:
+    choice: str = Prompt.ask(
         "Which park are you visiting today?",
-        choices=["Magic Kingdom", "Epcot", "Hollywood Studios", "Animal Kingdom"],
+        choices=["Magic Kingdom", "Epcot",
+                 "Hollywood Studios", "Animal Kingdom"],
         default="Hollywood Studios"
     )
     if choice == "Magic Kingdom":
@@ -34,8 +35,8 @@ def choose_a_park():
     return choice
 
 
-def choose_land_hollywood_studios(park_choice):
-    choice = Prompt.ask(
+def choose_land_hollywood_studios(park_choice: str) -> None:
+    choice: str = Prompt.ask(
         f"Do you have a preferred location within {park_choice}?",
         choices=[
             "Animation Courtyard",
@@ -68,8 +69,8 @@ def choose_land_hollywood_studios(park_choice):
         hollywood_studios.all_hollywood_studios_tables()
 
 
-def choose_land_magic_kingdom(park_choice):
-    choice = Prompt.ask(
+def choose_land_magic_kingdom(park_choice: str) -> None:
+    choice: str = Prompt.ask(
         f"Do you have a preferred location within {park_choice}?",
         choices=[
             "Adventureland",
@@ -96,8 +97,8 @@ def choose_land_magic_kingdom(park_choice):
         magic_kingdom.all_magic_kingdom_tables()
 
 
-def choose_land_epcot(park_choice):
-    choice = Prompt.ask(
+def choose_land_epcot(park_choice: str) -> None:
+    choice: str = Prompt.ask(
         f"Do you have a preferred location within {park_choice}?",
         choices=[
             "World Celebration",
@@ -119,8 +120,8 @@ def choose_land_epcot(park_choice):
         epcot.all_epcot_tables()
 
 
-def choose_land_animal_kingdom(park_choice):
-    choice = Prompt.ask(
+def choose_land_animal_kingdom(park_choice: str) -> None:
+    choice: str = Prompt.ask(
         f"Do you have a preferred location within {park_choice}?",
         choices=[
             "Africa",

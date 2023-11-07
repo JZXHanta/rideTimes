@@ -3,8 +3,7 @@ import options
 base_url = 'https://queue-times.com/parks/'
 
 
-
-def main():
+def main() -> None:
     options.choose_a_park()
 
 
